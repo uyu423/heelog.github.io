@@ -1,0 +1,17 @@
+title: 워니의 개발X디자인 블로그
+name: 워니 (Wonny)
+description: |
+  개발과 디자인하는 프리랜서.
+  하루하루 배우며 살아며, 그 배움을 담는 블로그입니다.
+email: hee072794@naver.com
+facebook: hee072794
+github: heelog
+brunch: hee072794
+
+baseurl: ""
+url: "http://heelog.github.io"
+
+markdown: kramdown
+
+image: '/assets/images/default_blog_cover.png'
+asset_url: /assets

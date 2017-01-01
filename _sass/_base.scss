@@ -1,0 +1,56 @@
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: $font-family;
+  font-weight: 300; /* @@iolo 200 -> 300, 200 for retina only! */
+  color: $text-color;
+  background-color: $background-color;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $font-kakao-family;
+  font-weight: 400;
+  color: $text-header-color;
+}
+
+b, strong, optgroup {
+  font-weight: 400;
+}
+
+a, a:link, a:visited, a:active, a:hover {
+  color: $text-color;
+  text-decoration: none;
+}
+
+.container-fluid {
+  width: 100%;
+}
+
+.container {
+  position: relative;
+  max-width: $container-width;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+
+.sr-only {
+  position: absolute;
+  top: -9999px;
+  left: -9999px
+}
+
+code.highlighter-rouge {
+  border: 1px solid $line-color;
+  color: $point-color;
+  padding: 3px;
+  border-radius: 5px;
+  background-color: #fafafa;
+}
+
+

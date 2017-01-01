@@ -1,0 +1,15 @@
+<header id="header">
+    <div class="container">
+        <button id="menu-toggle" type="button">
+            <span class="sr-only">Toggle Navigation Menu</span>
+        </button>
+        <a id="logo" href="/">
+            <span class="sr-only">{{ site.title }}</span>
+        </a>
+        <ul id="menu" class="nav">
+            <li class="{% if page.url == '/' or page.url == '/development/' %} active {% endif %}"><a
+                    href="{{ base_path }}">블로그</a></li>
+            <!--<li class="{% if page.url == '/talk/' %} active {% endif %}"><a href="{{ base_path }}/talk/">도란도란</a></li>-->
+        </ul>
+    </div>
+</header>
